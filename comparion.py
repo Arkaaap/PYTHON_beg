@@ -1,0 +1,5 @@
+a=int(input("Enter the number to compare : "))
+print (a==a)
+print (a!=a)
+print (a>=a)
+print (a<=a)

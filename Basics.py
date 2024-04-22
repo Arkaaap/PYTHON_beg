@@ -1,0 +1,8 @@
+a=float (input("Enter the 1'stnumber : "))
+b=float(input("Enter the 2'nd number : "))
+print ("The sum of two numbers are : ",a+b)
+print ("The substraction of two numbers are :",a-b)
+print ("The division of two number are : ",a/b)
+print ("The multiplication of two numbers are : ",a*b)
+print ("The power of two numbers are : ",a**b)
+print ("The modulo of two numbers are : ",a%b)
