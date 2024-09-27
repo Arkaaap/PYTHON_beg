@@ -1,5 +1,8 @@
-person = ['arka','soumya','rohit','shamik']
-lang = ['C','html/css','python','law']
+L = ['eat','ten','tan','ate','nat','bat']
+empty_dict = {}
 
-dic = dict(zip(person,lang))
-print (dic)
+for string in empty_dict:
+    key = ''.join(sorted(string))
+    empty_dict[key].append(string)
+
+print (empty_dict.values)
