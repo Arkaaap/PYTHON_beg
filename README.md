@@ -60,3 +60,4 @@ print(dict2)
 print (dict.get(1))
 print (dict.values())
 
+5.1
