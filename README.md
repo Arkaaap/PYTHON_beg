@@ -18,6 +18,7 @@ print (list)
 
 
 
+Tuple
 list = (1,2,3,4,5,6,8,-8)
 print (type(list))
 #print (dir(list))
@@ -29,6 +30,7 @@ print (list.index(-8))
 
 
 
+Set 
 list = {1,2,3,4,5,6,8,-8}
 print (type(list))
 print (dir(list))
@@ -38,3 +40,23 @@ set.pop()
 set.remove(-8)
 print (set)
 print (set)
+
+
+\n
+
+
+Dictionary:
+dict = {
+    1:'A',
+    2:'B',
+    3:'C'
+}
+#print(type(dict))
+print (dir(dict))
+dict2 = dict.copy()
+dict.pop(3)
+print (dict)
+print(dict2)
+print (dict.get(1))
+print (dict.values())
+
