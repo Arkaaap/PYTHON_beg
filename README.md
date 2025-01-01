@@ -14,3 +14,13 @@ list = [1,2,3,4,5,6,8,-8]
 print (list)
 
 
+\n 
+
+
+
+list = (1,2,3,4,5,6,8,-8)
+print (type(list))
+#print (dir(list))
+#print (list.count(-8))
+print (list.index(-8))
+
