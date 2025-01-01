@@ -24,3 +24,17 @@ print (type(list))
 #print (list.count(-8))
 print (list.index(-8))
 
+
+\n
+
+
+
+list = {1,2,3,4,5,6,8,-8}
+print (type(list))
+print (dir(list))
+list.add(-80)
+set = list.copy()
+set.pop()
+set.remove(-8)
+print (set)
+print (set)
