@@ -60,4 +60,24 @@ print(dict2)
 print (dict.get(1))
 print (dict.values())
 
-5.1
+
+string :
+
+
+string= "203808399"
+print (dir(string))
+print ()
+print (string.upper())
+print (string.lower())
+print (string.isalnum())#true if alphabet or number 
+print (string.isalpha())#true if only alphabet  
+print (string.find('S'))#find an iteam 
+print (string.split())#list 
+print (string.capitalize())
+print (string.replace ('T','t'))#old ->new 
+print (string.islower())
+print (string.count('T'))
+print (string)
+print (string.isdigit())#true if only numbers 
+print (string.isnumeric())#true if only numbers 
+print (string.isspace())#true if only space 
